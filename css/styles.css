@@ -1,11 +1,7 @@
-@media (min-width: 600px) and (max-width: 800px) 
-
-html {
-  width: 100%;
-}
-
-body {
-  margin: 8px 0;
+@media (min-width: 600px) and (max-width: 800px) {
+  body {
+    margin: 8px 0;
+  } 
 }
 
 header {
@@ -27,8 +23,13 @@ header {
 }
 
 main {
-  max-width: 1840px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 104px;
+}
+.mainphoto {
+  max-width: 800px;
+  
 }
 
 h1 {
