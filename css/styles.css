@@ -30,7 +30,7 @@ main {
 .mainphoto img {
   width: 100%;
   max-width: 1920px;
-  height: 600px;
+  height: 800px;
   object-fit: cover;  
 }
 
@@ -48,10 +48,6 @@ h2 {
 .about2 h2 {
   text-align: start;
 }
-
-
-
-
 .about {
   display: flex;
   text-align: center;
@@ -76,26 +72,14 @@ h2 {
   margin-right: 24px;
   text-align: center;
 }
-.left img {
-  width: 280px;
-  height: 160px;
-}
 
 .center {
   margin-right: 24px;
   text-align: center;
 }
-.center img {
-  width: 280px;
-  height: 160px;
-}
 
 .right {
   text-align: center;
-}
-.right img {
-  width: 280px;
-  height: 160px;
 }
 
 footer {
