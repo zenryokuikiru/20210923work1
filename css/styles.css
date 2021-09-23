@@ -7,19 +7,21 @@
 header {
   height: 46px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .header1 {
   cursor: pointer;
   margin-left: 320px;
+  flex: 1;
  }
 .header2 {
   cursor: pointer;
-  margin-left: 600px;
+  flex: 1;
 }
 .header3 {
   cursor: pointer;  
-  margin-left: 72px;
+  flex: 1;
 }
 
 main {
