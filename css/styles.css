@@ -27,9 +27,11 @@ main {
   margin-right: auto;
   margin-bottom: 104px;
 }
-.mainphoto {
-  max-width: 800px;
-  
+.mainphoto img {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;  
 }
 
 h1 {
@@ -74,14 +76,26 @@ h2 {
   margin-right: 24px;
   text-align: center;
 }
+.left img {
+  width: 280px;
+  height: 160px;
+}
 
 .center {
   margin-right: 24px;
   text-align: center;
 }
+.center img {
+  width: 280px;
+  height: 160px;
+}
 
 .right {
   text-align: center;
+}
+.right img {
+  width: 280px;
+  height: 160px;
 }
 
 footer {
